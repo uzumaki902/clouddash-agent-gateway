@@ -179,7 +179,8 @@ class ConversationState(BaseModel):
     status: ConversationStatus = ConversationStatus.ACTIVE
     current_agent: AgentRole = AgentRole.TRIAGE
     history: List[Message] = Field(default_factory=list)
-    handover: Optional[HandoverPayload] = None
+    handover: Optional[HandoverPayload] = None          # Latest handover (convenience shortcut)
+    handover_history: List[HandoverPayload] = Field(default_factory=list)  # Full routing audit trail
     rag_citations: List[str] = Field(default_factory=list)
     user_id: Optional[str] = None
     customer_tier: Optional[Literal["free", "pro", "enterprise"]] = None
@@ -207,10 +208,15 @@ class ConversationState(BaseModel):
         )
 
     def with_handover(self, payload: HandoverPayload) -> "ConversationState":
-        """Return a new state reflecting an agent routing decision."""
+        """Return a new state reflecting an agent routing decision.
+
+        Both `handover` (latest shortcut) and `handover_history` (full audit
+        trail) are updated atomically so consumers can use whichever is convenient.
+        """
         return self.model_copy(
             update={
                 "handover": payload,
+                "handover_history": [*self.handover_history, payload],
                 "current_agent": payload.to_agent,
                 "updated_at": datetime.now(timezone.utc),
             }
