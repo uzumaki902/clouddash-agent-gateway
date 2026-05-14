@@ -1,0 +1,9 @@
+{
+  "id": "KB-020",
+  "title": "Resetting Your Admin Password",
+  "category": "Account & Access",
+  "tags": ["password", "recovery", "account"],
+  "content": "If you have lost access to your administrator account, you can initiate a password reset from the login page by clicking 'Forgot Password?'. You will receive an email with a secure link to create a new password. For security reasons, this link is only valid for 60 minutes. If you do not receive the email, please check your spam folder or ensure that your organization's mail server is not blocking emails from `@clouddash.io`.\n\nIn cases where you no longer have access to the email address associated with the admin account, another administrator within your organization can reset your password or change your email address through the User Management portal. If you are the sole administrator and cannot access your email, please contact our support team with proof of domain ownership to begin the manual account recovery process.",
+  "last_updated": "2026-05-14",
+  "applies_to": ["Pro", "Enterprise", "Basic"]
+}

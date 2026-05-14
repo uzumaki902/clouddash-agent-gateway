@@ -1,0 +1,9 @@
+{
+  "id": "KB-006",
+  "title": "Why are metrics missing in my dashboard?",
+  "category": "Troubleshooting Guides",
+  "tags": ["metrics", "dashboard", "permissions"],
+  "content": "Missing metrics often stem from insufficient permissions granted to the CloudDash integration role. For AWS users, ensure that the IAM policy attached to the CloudDash role includes `cloudwatch:GetMetricData` and `cloudwatch:ListMetrics`. For GCP users, verify that the Service Account has the 'Monitoring Viewer' role assigned.\n\nAnother common cause is the metric collection interval. If you are sending custom metrics via the API, ensure that the timestamps are in UTC and within the last 24 hours. Metrics with timestamps older than 24 hours or more than 2 hours in the future will be dropped by our ingestion pipeline.",
+  "last_updated": "2026-05-14",
+  "applies_to": ["Pro", "Enterprise", "Basic"]
+}

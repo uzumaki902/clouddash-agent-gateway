@@ -1,0 +1,9 @@
+{
+  "id": "KB-001",
+  "title": "What is CloudDash?",
+  "category": "FAQs",
+  "tags": ["introduction", "overview", "basics"],
+  "content": "CloudDash is a next-generation observability platform designed to provide deep visibility into modern cloud infrastructure. By integrating with AWS, Google Cloud, and Azure, it aggregates metrics, logs, and traces into a unified dashboard, allowing engineering teams to monitor system health in real-time.\n\nThe platform utilizes a lightweight agent architecture that minimizes resource overhead while maximizing data collection efficiency. Whether you are running Kubernetes clusters on-prem or serverless functions in the cloud, CloudDash provides the tools needed to troubleshoot performance bottlenecks and maintain high availability.",
+  "last_updated": "2026-05-14",
+  "applies_to": ["Pro", "Enterprise", "Basic"]
+}

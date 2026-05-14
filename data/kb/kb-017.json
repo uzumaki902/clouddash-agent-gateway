@@ -1,0 +1,9 @@
+{
+  "id": "KB-017",
+  "title": "Setting up SSO with Okta (SAML 2.0)",
+  "category": "Account & Access",
+  "tags": ["sso", "okta", "security"],
+  "content": "Single Sign-On (SSO) integration with Okta allows your team to log in to CloudDash using their corporate credentials. To get started, you must first create a new SAML 2.0 application in your Okta Admin Console. Provide the 'Single Sign On URL' and 'Audience URI (Entity ID)' found in the CloudDash Security settings under the SSO tab.\n\nOnce the Okta application is configured, download the Identity Provider Metadata XML file and upload it to the CloudDash portal. After saving the configuration, we recommend test the connection with a single administrative user before enforcing SSO for the entire organization. Enforcement ensures that all non-admin users must authenticate via Okta, disabling standard password-based login for increased security.",
+  "last_updated": "2026-05-14",
+  "applies_to": ["Enterprise"]
+}

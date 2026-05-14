@@ -1,0 +1,9 @@
+{
+  "id": "KB-019",
+  "title": "Enabling Multi-Factor Authentication (MFA)",
+  "category": "Account & Access",
+  "tags": ["mfa", "2fa", "security"],
+  "content": "Multi-Factor Authentication (MFA) adds an extra layer of security to your CloudDash account by requiring a second form of verification during login. We support Time-based One-Time Password (TOTP) applications like Google Authenticator, Authy, and Microsoft Authenticator. To enable MFA, navigate to your User Profile settings and select 'Set up MFA'.\n\nOrganization administrators can enforce MFA for all users within the Security settings tab. When enforcement is active, users will be prompted to set up MFA upon their next login. We strongly recommend that all users also save their one-time recovery codes in a secure location, as our support team cannot bypass MFA requirements for individual accounts due to security protocols.",
+  "last_updated": "2026-05-14",
+  "applies_to": ["Pro", "Enterprise", "Basic"]
+}

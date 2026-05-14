@@ -1,0 +1,9 @@
+{
+  "id": "KB-004",
+  "title": "Available Alerting Channels",
+  "category": "FAQs",
+  "tags": ["alerts", "notifications", "slack"],
+  "content": "CloudDash supports multiple alerting channels to ensure your team is notified immediately when an incident occurs. Out-of-the-box integrations include Slack, PagerDuty, Opsgenie, and traditional Email notifications. We also provide a Webhook integration for custom automation workflows.\n\nYou can configure alert routing based on severity, tags, or specific service groups. For example, critical CPU spikes on production database servers can be routed to PagerDuty, while low-priority disk space warnings for staging environments are sent to a dedicated Slack channel.",
+  "last_updated": "2026-05-14",
+  "applies_to": ["Pro", "Enterprise", "Basic"]
+}

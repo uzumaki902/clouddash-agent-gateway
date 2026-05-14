@@ -1,0 +1,9 @@
+{
+  "id": "KB-011",
+  "title": "Custom Metrics and Overage Charges",
+  "category": "Billing & Pricing Policies",
+  "tags": ["overages", "metrics", "costs"],
+  "content": "While standard system metrics (CPU, Memory, Disk) are included in your base host price, CloudDash allows you to ingest custom metrics from your applications. Each host comes with an allotment of 100 custom metrics per month. If you exceed this allotment, overage charges will apply at a rate of $0.05 per metric per month.\n\nTo avoid unexpected charges, we recommend monitoring your custom metric usage through the 'Billing Insights' dashboard. You can also set hard caps or alert thresholds on metric ingestion to prevent runaway data costs from misconfigured application logging or development tests.",
+  "last_updated": "2026-05-14",
+  "applies_to": ["Pro", "Enterprise"]
+}

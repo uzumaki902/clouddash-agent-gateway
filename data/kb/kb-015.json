@@ -1,0 +1,9 @@
+{
+  "id": "KB-015",
+  "title": "Fetching Real-time Metrics via API",
+  "category": "API Documentation",
+  "tags": ["api", "metrics", "data"],
+  "content": "You can retrieve real-time and historical metric data using the `/query` endpoint. This endpoint accepts a query string in the same format used in the CloudDash UI (e.g., `avg:system.cpu.user{host:my-server}`). You must also specify a `from` and `to` timestamp in Unix epoch format to define the time range for the data retrieval.\n\nThe API supports various aggregations such as average, sum, min, and max. By default, the API returns data points at a resolution determined by the length of the requested time range. For very large data sets, we recommend using the `point_limit` parameter to paginate through results and prevent timeouts.",
+  "last_updated": "2026-05-14",
+  "applies_to": ["Pro", "Enterprise"]
+}

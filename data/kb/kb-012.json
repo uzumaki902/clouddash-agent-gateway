@@ -1,0 +1,9 @@
+{
+  "id": "KB-012",
+  "title": "Refund and Cancellation Policy",
+  "category": "Billing & Pricing Policies",
+  "tags": ["refunds", "cancellation", "legal"],
+  "content": "You can cancel your CloudDash subscription at any time through the Billing settings page. Upon cancellation, your account will remain active until the end of the current billing cycle, after which your data will be queued for deletion. We do not provide prorated refunds for partial months of service.\n\nFor annual plans, refunds are generally not available unless requested within 48 hours of the initial purchase or renewal. If you believe you have been billed in error, please contact our support team at billing@clouddash.io with your invoice number and a description of the issue. We aim to resolve all billing disputes within 5 business days.",
+  "last_updated": "2026-05-14",
+  "applies_to": ["Pro", "Enterprise", "Basic"]
+}

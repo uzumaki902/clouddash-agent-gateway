@@ -1,0 +1,9 @@
+{
+  "id": "KB-013",
+  "title": "Getting Started with the CloudDash API",
+  "category": "API Documentation",
+  "tags": ["api", "authentication", "developers"],
+  "content": "The CloudDash API allows you to programmatically interact with your observability data, manage alerts, and configure dashboards. All API requests must be made over HTTPS to `https://api.clouddash.io/v1/` and require an API key for authentication. You can generate and manage your API keys in the 'API Access' section of your Organization settings.\n\nTo authenticate your requests, include your API key in the `Authorization` header as a Bearer token: `Authorization: Bearer <YOUR_API_KEY>`. We recommend using environment variables to store your keys securely and avoiding hard-coding them in your application source code. All responses are returned in JSON format.",
+  "last_updated": "2026-05-14",
+  "applies_to": ["Pro", "Enterprise"]
+}

@@ -1,0 +1,9 @@
+{
+  "id": "KB-009",
+  "title": "CloudDash Pricing Tiers Overview",
+  "category": "Billing & Pricing Policies",
+  "tags": ["pricing", "tiers", "billing"],
+  "content": "CloudDash offers three primary pricing tiers to suit different organizational needs: Basic, Pro, and Enterprise. The Basic tier is ideal for small startups, offering 15-day data retention and support for up to 5 hosts. The Pro tier provides 15-month retention, advanced alerting features, and support for up to 100 hosts.\n\nOur Enterprise tier is designed for large-scale operations requiring custom retention policies, dedicated support engineers, and advanced security features like SSO and audit logs. All tiers are billed monthly based on the peak number of monitored hosts during that period, with annual discounts available for long-term commitments.",
+  "last_updated": "2026-05-14",
+  "applies_to": ["Pro", "Enterprise", "Basic"]
+}

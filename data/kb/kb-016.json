@@ -1,0 +1,12 @@
+
+
+
+{
+  "id": "KB-016",
+  "title": "Managing Dashboards Programmatically",
+  "category": "API Documentation",
+  "tags": ["api", "dashboards", "automation"],
+  "content": "The Dashboards API enables full CRUD (Create, Read, Update, Delete) operations on your CloudDash dashboards. This is particularly useful for 'Infrastructure as Code' workflows where you want to deploy monitoring dashboards alongside your application resources using tools like Terraform or Pulumi.\n\nA dashboard is represented as a JSON object containing a list of widgets and their respective configurations. When creating a dashboard via the API, you must provide a unique title and a valid JSON structure for the layout. Updates can be made by sending a `PUT` request to the specific dashboard ID with the modified JSON payload. Always validate your JSON structure against our schema before submission.",
+  "last_updated": "2026-05-14",
+  "applies_to": ["Pro", "Enterprise"]
+}

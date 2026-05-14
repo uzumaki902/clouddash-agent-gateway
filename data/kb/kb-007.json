@@ -1,0 +1,9 @@
+{
+  "id": "KB-007",
+  "title": "Resolving High Latency in Alerting",
+  "category": "Troubleshooting Guides",
+  "tags": ["alerts", "latency", "performance"],
+  "content": "High latency in alert notifications can be frustrating during a critical incident. This usually occurs when alert thresholds are configured too close to the noise floor, causing an 'alert storm' that saturates our processing queues. To mitigate this, consider using 'multi-condition' alerts that require a sustained breach over several evaluation periods (e.g., CPU > 90% for at least 5 minutes).\n\nAdditionally, check if your notification provider (e.g., PagerDuty or Slack) is experiencing downtime. You can verify the health of CloudDash's alerting engine on our status page. If the issue persists only for specific integrations, try re-authenticating the connection in the Integrations settings.",
+  "last_updated": "2026-05-14",
+  "applies_to": ["Pro", "Enterprise"]
+}

@@ -1,0 +1,9 @@
+{
+  "id": "KB-010",
+  "title": "Understanding Data Retention Policies",
+  "category": "Billing & Pricing Policies",
+  "tags": ["retention", "metrics", "storage"],
+  "content": "Data retention determines how long your metrics, logs, and traces are stored in the CloudDash platform. By default, the Basic tier retains data for 15 days, allowing for short-term troubleshooting. The Pro and Enterprise tiers offer much longer retention periods, typically 15 months, which is essential for year-over-year performance analysis and compliance auditing.\n\nRetention is applied per data type. While metrics are kept for the full duration of your plan, high-volume logs may have shorter retention periods unless 'Extended Log Storage' is enabled. You can view your current retention settings and upgrade your plan in the Billing section of the administrative console.",
+  "last_updated": "2026-05-14",
+  "applies_to": ["Pro", "Enterprise", "Basic"]
+}

@@ -1,0 +1,9 @@
+{
+  "id": "KB-008",
+  "title": "Troubleshooting Slow Dashboard Loading",
+  "category": "Troubleshooting Guides",
+  "tags": ["dashboard", "slow", "optimization"],
+  "content": "If your dashboards are taking too long to load, it is likely due to an excessive number of widgets or a query spanning a very large time range. We recommend limiting dashboards to 20 widgets per page and using template variables to filter data dynamically rather than creating static widgets for every host.\n\nHeavy use of wildcards in queries (e.g., `avg:system.cpu.idle{host:*}`) can also degrade performance for organizations with thousands of servers. Instead, use tags to group infrastructure logically (e.g., `{env:prod, service:web}`) to reduce the volume of data retrieved for each visualization.",
+  "last_updated": "2026-05-14",
+  "applies_to": ["Pro", "Enterprise", "Basic"]
+}

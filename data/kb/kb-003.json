@@ -1,0 +1,9 @@
+{
+  "id": "KB-003",
+  "title": "How does the CloudDash Agent work?",
+  "category": "FAQs",
+  "tags": ["agent", "monitoring", "collection"],
+  "content": "The CloudDash Agent is a small daemon process that runs on your servers and containers to collect system-level metrics and application logs. It communicates with our backend via a secure, encrypted HTTPS connection, ensuring that your data remains private and protected during transit.\n\nThe agent is designed for high performance and low footprint, typically consuming less than 1% of CPU and 50MB of RAM. It automatically discovers running services and applies pre-configured monitoring templates, reducing the manual effort required to set up observability for new infrastructure.",
+  "last_updated": "2026-05-14",
+  "applies_to": ["Pro", "Enterprise", "Basic"]
+}

@@ -1,0 +1,9 @@
+{
+  "id": "KB-005",
+  "title": "Fixing 'Agent Not Reporting' Errors",
+  "category": "Troubleshooting Guides",
+  "tags": ["agent", "connectivity", "errors"],
+  "content": "If a host appears as 'Inactive' or 'Not Reporting' in your dashboard, the first step is to verify the agent process is running on the target machine. Use the command `systemctl status clouddash-agent` on Linux or check the Services manager on Windows. If the service is stopped, try restarting it and check the logs located at `/var/log/clouddash-agent.log` for any startup errors.\n\nConnectivity issues are often caused by restrictive firewall rules or outbound proxy settings. Ensure that the agent can reach `https://api.clouddash.io` on port 443. If your environment requires a proxy, you must define the `HTTP_PROXY` and `HTTPS_PROXY` environment variables in the agent's configuration file.",
+  "last_updated": "2026-05-14",
+  "applies_to": ["Pro", "Enterprise", "Basic"]
+}

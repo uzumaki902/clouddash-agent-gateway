@@ -1,0 +1,9 @@
+{
+  "id": "KB-002",
+  "title": "Supported Cloud Providers",
+  "category": "FAQs",
+  "tags": ["cloud", "aws", "azure", "gcp"],
+  "content": "CloudDash supports a wide range of cloud environments, including Amazon Web Services (AWS), Microsoft Azure, and Google Cloud Platform (GCP). Our native integrations allow for seamless data ingestion from services like EC2, S3, RDS, Lambda, and more. We also support hybrid cloud setups using our standalone agent on Linux and Windows servers.\n\nTo connect your cloud provider, navigate to the Integrations tab in your dashboard and follow the step-by-step setup guide for each provider. Most integrations require only read-only IAM permissions to begin fetching metrics.",
+  "last_updated": "2026-05-14",
+  "applies_to": ["Pro", "Enterprise", "Basic"]
+}

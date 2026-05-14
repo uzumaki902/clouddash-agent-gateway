@@ -1,0 +1,9 @@
+{
+  "id": "KB-018",
+  "title": "Understanding Role-Based Access Control (RBAC)",
+  "category": "Account & Access",
+  "tags": ["rbac", "permissions", "roles"],
+  "content": "CloudDash uses Role-Based Access Control (RBAC) to manage user permissions across your organization. There are four predefined roles: Viewer, Editor, Admin, and Billing. Viewers have read-only access to dashboards and metrics but cannot modify alerts. Editors can create and modify dashboards, alerts, and integrations but do not have access to administrative settings.\n\nAdmins have full control over the organization, including user management and security settings. The Billing role is restricted to viewing and paying invoices and cannot access technical monitoring data. For Enterprise customers, we also support custom roles where you can define granular permissions for specific service groups or dashboards using tag-based access control policies.",
+  "last_updated": "2026-05-14",
+  "applies_to": ["Pro", "Enterprise"]
+}

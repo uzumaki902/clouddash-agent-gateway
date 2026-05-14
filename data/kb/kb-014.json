@@ -1,0 +1,9 @@
+{
+  "id": "KB-014",
+  "title": "API Rate Limits and Quotas",
+  "category": "API Documentation",
+  "tags": ["api", "limits", "performance"],
+  "content": "To ensure platform stability and fair usage, CloudDash enforces rate limits on all API endpoints. The default limit for most endpoints is 100 requests per minute per organization. If you exceed this limit, the API will return a `429 Too Many Requests` response. You can check your current rate limit status in the headers of every API response (`X-RateLimit-Remaining`).\n\nFor high-volume data ingestion, we provide dedicated endpoints for bulk metric submission which have higher throughput limits. If your use case requires higher rate limits than what is provided in your current plan, please reach out to our engineering team to discuss a custom quota increase for your account.",
+  "last_updated": "2026-05-14",
+  "applies_to": ["Pro", "Enterprise"]
+}
